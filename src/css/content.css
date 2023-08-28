@@ -9,19 +9,38 @@
     word-wrap: break-word; /*break-word - the word is moved on any letter when it reaches the edge of the parent area. */
   }
   & button {
+    background-color: #24201D;
     color: #fff;
+    width: 139px;
+    height: 57px;
     border-radius: 5px;
     font-size: 20px;
     font-weight: 500;
     line-height: 37.50px;
     word-wrap: break-word;
-    background-color: #353535;
+    border: none;
+    flex-shrink: 0;
   }
 }
 
+.block1 {
+  width: 1146px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .block2 {
-  border: 1px solid #000;
-  display: inline-block;
+  display: flex;
+  margin-top: 57px;
   justify-content: center;
+  & .image {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px 20px;
+      text-align: center;
+      padding: 0px 47px;
+  }
 }
+
