@@ -1,0 +1,27 @@
+.content-container {
+  border: 1px solid #000;
+  background: #000;
+  & span {
+    color: #fff;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 58.12px;
+    word-wrap: break-word; /*break-word - the word is moved on any letter when it reaches the edge of the parent area. */
+  }
+  & button {
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 37.50px;
+    word-wrap: break-word;
+    background-color: #353535;
+  }
+}
+
+
+.block2 {
+  border: 1px solid #000;
+  display: inline-block;
+  justify-content: center;
+}
