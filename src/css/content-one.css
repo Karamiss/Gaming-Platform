@@ -1,0 +1,34 @@
+body {
+  margin: 0px 147px;
+  background-color: #000;
+  width: 1440px;
+}
+
+
+
+h1, h2 {
+  white-space: pre-line;
+  color: #fff;
+}
+
+h1 {
+  padding-top: 67px;
+}
+h2 {
+  padding-top: 32px;
+}
+
+.group21 {
+  flex-shrink: 0;
+  position: absolute;
+  top: 219px;
+  right: 272px;
+  bottom: 125px;
+  left: 972px;
+  /* margin: 219px 125px 375px 825px; */
+  /* margin: 825px 375px 125px 219px; */
+}
+
+.rectangle4 {
+  padding-top: 46px;
+}

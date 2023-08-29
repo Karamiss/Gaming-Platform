@@ -1,0 +1,66 @@
+body {
+  margin: 0px 147px;
+  background-color: #000;
+}
+h1, h3 {
+  white-space: pre-line;
+}
+h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56.25px; 
+  flex-shrink: 0;
+}
+h3 {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+
+
+.image-container {
+  position: relative;
+  margin: 0px 150px;
+}
+
+.cont1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; 
+}
+
+.cont2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; 
+}
+
+
+.bottom-image,
+.top-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-image {
+  z-index: 1; /* Перемещает верхнее изображение поверх нижнего */
+}
+
+
+span {
+  color: #FFF;
+  margin-top: 300px;
+}
