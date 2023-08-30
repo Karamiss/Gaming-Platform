@@ -16,3 +16,14 @@ font-weight: 700;
 line-height: 31.04px; 
 } */
 
+.wrapper {
+  
+}
+
+.span-text1, .span-text2 {
+  word-wrap: break-word;
+}
+
+span {
+  word-wrap: break-word;
+}

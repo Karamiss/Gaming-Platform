@@ -4,8 +4,6 @@ body {
   width: 1440px;
 }
 
-
-
 h1, h2 {
   white-space: pre-line;
   color: #fff;
@@ -25,8 +23,6 @@ h2 {
   right: 272px;
   bottom: 125px;
   left: 972px;
-  /* margin: 219px 125px 375px 825px; */
-  /* margin: 825px 375px 125px 219px; */
 }
 
 .rectangle4 {
