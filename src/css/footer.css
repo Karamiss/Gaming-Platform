@@ -1,0 +1,52 @@
+body {
+  margin: 0px 147px;
+  padding-top: 236px;
+  background-color: #00000057;
+
+}
+
+a {
+  color: #fff;
+}
+
+.logo {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36.84px;
+}
+
+.lorem-text {
+  width: 372px;
+  height: 58px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.logo-text {
+  width: 196px;
+  height: 23px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Poppins;
+  /* font-size: 16px; */
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.a-wrapper-lorem {
+  margin-top: 15px;
+}
+
+.a-wrapper-logo {
+  margin-top: 25px;
+}
