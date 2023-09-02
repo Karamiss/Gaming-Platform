@@ -1,7 +1,7 @@
 body {
   margin: 0px 147px;
   padding-top: 236px;
-  background-color: #00000057;
+  background-color: #000000;
 }
 
 
@@ -58,5 +58,29 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
- 
+}
+
+.nav-heading {
+  color: #FFF;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.menu-list {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29.808px;
+}
+
+
+.contentinfo {
+  display: flex;
+  justify-content: center;
+  margin-top: 29px;
+  font-family: Poppins;
+  
 }
