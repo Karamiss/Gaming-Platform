@@ -2,12 +2,9 @@ body {
   margin: 0px 147px;
   padding-top: 236px;
   background-color: #00000057;
-
 }
 
-a {
-  color: #fff;
-}
+
 
 .logo {
   color: #FFF;
@@ -49,4 +46,17 @@ a {
 
 .a-wrapper-logo {
   margin-top: 25px;
+}
+
+
+
+p {
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ 
 }
