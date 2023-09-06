@@ -1,0 +1,78 @@
+.main-description-section {
+  /* margin: 0px 147px; */
+  /* width: 1162px; */
+  /* height: 869; */
+  /* background-color: #000000; */
+  padding-top: 128px;
+}
+
+
+.span-text1, .span-text2 {
+  word-wrap: break-word;
+  display: block;
+}
+.span-text1 {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  width: 479.629px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 155.2%; /* 77.6px */
+
+}
+.span-text2 {
+  margin-top: 20px; /*Крч,, эту хуйню обернуть и задать это же свойство и картинка встанет*/
+  word-wrap: break-word;
+  width: 527px;
+  height: 101px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; 
+  }
+
+span {
+  word-wrap: break-word;
+}
+
+.btn-gmd {
+  width: 195px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: linear-gradient(113deg, #FA8305 0%, #FB9E3C 100%);
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  /* padding-top: 50px; */
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.wrapper {
+  flex: 1; /* Занимает всю доступную ширину */
+  padding-right: 145px; /* Добавляет отступ между .wrapper и .png-wrapper */
+}
+
+.png-wrapper {
+  flex: 1; /* Занимает всю доступную ширину */
+  display: flex;
+  justify-content: flex-end; /* Выравнивание содержимого по правому краю */
+  align-items: center; /* Выравнивание содержимого по вертикали по центру */
+  /* margin-bottom: 140px;  */
+  margin-top: 15px;
+}
+
